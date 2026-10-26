@@ -1,0 +1,50 @@
+
+Validating 2 questions from predefined_questions.jsonl...
+
+[PASS] q1_red_headed_league_assistant
+  Q: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+  Cited files: 01_red_headed_league.txt
+  Expected file: 01_red_headed_league.txt
+  Expected fact phrases present: 1/5
+  Latency: 3765.2 ms
+  Answer: The assistant working at Jabez Wilson's pawnshop was Vincent Spaulding. His real identity is not explicitly stated in the excerpts, but he is described as small, quick, and clever, with a fondness for photography. He worked for half wages to learn the trade and managed the pawnshop while Wilson was occupied with the Red-Headed League [The Red-Headed League — Holmes Investigates; file=01_red_headed_league.txt] and [The Red-Headed League — The Strange Work; file=01_red_headed_league.txt].
+
+[PASS] q2_speckled_band_murder_weapon
+  Q: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+  Cited files: 02_speckled_band.txt
+  Expected file: 02_speckled_band.txt
+  Expected fact phrases present: 4/6
+  Latency: 3559.3 ms
+  Answer: Julia Stoner was killed by a snake that had been trained by Doctor Roylott to climb through a ventilator and bite her as she lay in bed. The method was discovered when Holmes examined the room and noted the peculiarities, including the dummy bell-rope and the bolted bed, which prevented Julia from moving out of the snake's reach. The snake's bite left no visible mark due to its tiny puncture and quick action, which contributed to the mystery of her death [The Adventure of the Speckled Band — The Explanation].
+
+Source-match: 2/2
+
+Validating 3 questions from learner_questions.jsonl...
+
+[PASS] q3_blue_carbuncle_goose
+  Q: Who found the hat and goose on Christmas morning, and what clue identified the intended recipient of the goose?
+  Cited files: 03_blue_carbuncle.txt
+  Expected file: 03_blue_carbuncle.txt
+  Expected fact phrases present: 2/2
+  Latency: 2889.9 ms
+  Answer: The hat and goose were found by Peterson on Christmas morning. The clue that identified the intended recipient of the goose was a small card attached to the goose's leg, marked: "For Mrs Henry Baker," along with the initials "H. B." faintly inked inside the hatband [The Adventure of the Blue Carbuncle — The Hat and the Goose].
+
+[PASS] q4_engineers_thumb_hatherley
+  Q: What was Victor Hatherley's profession, and what injury brought him to Watson?
+  Cited files: 04_engineers_thumb.txt
+  Expected file: 04_engineers_thumb.txt
+  Expected fact phrases present: 3/3
+  Latency: 2515.9 ms
+  Answer: Victor Hatherley was a hydraulic engineer. He came to Watson after suffering an injury where his right thumb was severed cleanly at the base [The Adventure of the Engineer's Thumb — Victor Hatherley, Hydraulic Engineer; file=04_engineers_thumb.txt] and [The Adventure of the Engineer's Thumb — The Adventure of the Engineer's Thumb; file=04_engineers_thumb.txt].
+
+[PASS] q5_scandal_irene_adler
+  Q: Why did the King of Bohemia seek Holmes's help, and what item was he especially anxious to recover?
+  Cited files: 03_blue_carbuncle.txt, 05_scandal_in_bohemia.txt
+  Expected file: 05_scandal_in_bohemia.txt
+  Expected fact phrases present: 2/2
+  Latency: 2573.0 ms
+  Answer: The King of Bohemia sought Holmes's help because he was anxious to recover a photograph that could potentially compromise him, as it depicted him with Irene Adler, who was threatening to use it against him out of revenge for being cast aside. The King had tried various methods to retrieve the photograph, including burgling Adler's house and intercepting her luggage, but to no avail. Holmes agreed to take the case, and the King paid him a thousand pounds in advance for his services [A Scandal in Bohemia — The Photograph; file=05_scandal_in_bohemia.txt].
+
+Source-match: 3/3
+
+OVERALL source-match: 5/5
